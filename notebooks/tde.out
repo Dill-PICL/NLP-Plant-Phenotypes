@@ -1,0 +1,12 @@
+366308
+172373
+38787
+4
+200 ['embryo', 'defect'] 200 0.0001 0.025 3
+saving doc2vec_ep200_both_dim200_a_s_min3.model
+200 ['embryo', 'defect'] 200 0.0001 0.025 5
+saving doc2vec_ep200_both_dim200_a_s_min5.model
+200 ['embryo', 'defect'] 300 0.0001 0.025 3
+saving doc2vec_ep200_both_dim300_a_s_min3.model
+200 ['embryo', 'defect'] 300 0.0001 0.025 5
+saving doc2vec_ep200_both_dim300_a_s_min5.model

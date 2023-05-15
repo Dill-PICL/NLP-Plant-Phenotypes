@@ -1,0 +1,1 @@
+omim_api_key = "p_PTJH83REaFV373m5EuDg"

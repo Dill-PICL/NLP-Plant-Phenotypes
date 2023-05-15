@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Copy/paste this job script into a text file and submit with the command:
+#    sbatch thefilename
+
+#SBATCH --time=00:15:00   # walltime limit (HH:MM:SS)
+#SBATCH --nodes=1   # number of nodes
+#SBATCH --ntasks-per-node=36   # 36 processor core(s) per node 
+#SBATCH --mem=100G   # maximum memory per node
+#SBATCH --job-name="bert"
+#SBATCH --mail-user=jyothi@iastate.edu   # email address
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+#SBATCH --output="bert.out" # job standard output file (%j replaced by job id)
+
+# LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
+cd /work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/scripts/
+python rglob_and_stack.py
