@@ -1,0 +1,25 @@
+# Building an image with a dockerfile and then running the container from that image.
+docker build -f Dockerfile -t app:latest .
+docker run -p 8501:8501 app:latest
+
+
+
+
+
+# Doing that same process but in a way compatible with the dockerhub account and that project repository.
+docker build -f Dockerfile -t irbraun/qu-oats:latest .
+docker run -p 8501:8501 irbraun/qu-oats:latest
+
+# Pushing this new image to the project repository.
+docker push irbraun/qu-oats:latest
+
+
+
+
+
+
+# Checking existing images and running containers, and cleaning up.
+docker images
+docker container ls
+docker stop [container]
+docker system prune
