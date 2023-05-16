@@ -27,7 +27,7 @@ python plots.py
 To run it as jupyter notebook, go to notebooks directory and run analysis, analysis_data_composition first. Then go to scripts directory and run rglob_and_stack.py and plots.py from quoats.
 
 
-# FEEDBACK: 
+## FEEDBACK: 
 
 Any queries or feedback. Contact jyothi@iastate.edu 
 
