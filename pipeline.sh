@@ -18,10 +18,6 @@ python analysis.py
 echo "\n\n   analysis_dataset_composition"
 python analysis_dataset_composition.py
 
-echo "\n\n Running the bert model"
-
-
-
 
 echo "\nrunning post script"
 cd ..
@@ -31,7 +27,6 @@ echo "   rglob_and_stack"
 python3 rglob_and_stack.py
 
 cd ..   
-
 
 ### ABSOLUTE PATHS USED IN THIS NOTEBOOK - NEED TO CHANGE
 # Convert the preprocessing notebooks to python scripts
