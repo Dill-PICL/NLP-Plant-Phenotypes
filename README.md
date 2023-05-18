@@ -1,6 +1,11 @@
 # NLP-Plant-Phenotypes
 
-Install the required packages
+datasets available at:  
+
+For preprocessing, merging and analysis of datasets are available in this repository: 
+
+
+The next step is to Install the required packages
 
 ```python 
 pip install -r requirements.txt
@@ -29,6 +34,6 @@ To run it as jupyter notebook, go to notebooks directory and run analysis, analy
 
 ## FEEDBACK: 
 
-Any queries or feedback. Contact jyothi@iastate.edu 
+Any queries or feedback. Contact ianrbraun@gmail.com OR jyothi@iastate.edu.
 
 
