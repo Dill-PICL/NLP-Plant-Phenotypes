@@ -4,34 +4,22 @@ echo "START OF PIPELINE.SH\n"
 echo "convert notebooks to scripts"
 cd notebooks/
 jupyter nbconvert --to script analysis.ipynb
-jupyter nbconvert --to script analysis_dataset_composition.ipynb
-
-jupyter nbconvert --to script bert.ipynb
-# Scripts are located ../notebooks
-
-# Run all the scripts
-echo "\nrunninig all scripts"
-
-echo " \n  analysis"
-python analysis.py
-
-echo "\n\n   analysis_dataset_composition"
-python analysis_dataset_composition.py
 
 
-echo "\nrunning post script"
-cd ..
-cd scripts/
+cd your_local_path/reorganizing-irb-scripts/plant-phenotypes-nlp/notebooks
+python analysis.py --name plants1 --dataset plants --filter --ic --vanilla
+python analysis.py --name plants2 --dataset plants --filter --learning --baseline
+python analysis.py --name plants3 --dataset plants --filter --bio_small --vocab
+python analysis.py --name plants4 --dataset plants --filter --collapsed
+python analysis.py --name plants5 --dataset plants --filter --noblecoder
+python analysis.py --name plants6 --dataset plants --filter --nmf --lda
+python analysis.py --name plants7 --dataset plants --filter --bert --biobert
+cd ../scripts
+python rglob_and_stack.py plants
 
-echo "   rglob_and_stack"
-python3 rglob_and_stack.py
 
-cd ..   
 
-### ABSOLUTE PATHS USED IN THIS NOTEBOOK - NEED TO CHANGE
-# Convert the preprocessing notebooks to python scripts
-echo "\n\nconvert notebooks to scripts"
-cd quoats/
+cd ../quoats/
 jupyter nbconvert --to script plots.ipynb 
 python plots.py 
 
