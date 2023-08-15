@@ -110,11 +110,11 @@ df_long_grouped <- group_by(df_long, group_id, class)
 
 
 
-input_path_subsets <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_11_2023_h16m17s57_3760/stacked_all_subsets_within_distances_melted.csv"
-input_path_kegg <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_11_2023_h16m17s57_3760/stacked_all_kegg_only_within_distances_melted.csv"
-input_path_plantcyc <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_11_2023_h16m17s57_3760/stacked_all_pmn_only_within_distances_melted.csv"
-output_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/figs/intragroup_distances.png"
-names_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/names.tsv"
+input_path_subsets <- "/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_11_2023_h16m17s57_3760/stacked_all_subsets_within_distances_melted.csv"
+input_path_kegg <- "/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_11_2023_h16m17s57_3760/stacked_all_kegg_only_within_distances_melted.csv"
+input_path_plantcyc <- "/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_11_2023_h16m17s57_3760/stacked_all_pmn_only_within_distances_melted.csv"
+output_path <- "/your/path/to/plant-phenotypes-nlp/figs/intragroup_distances.png"
+names_path <- "/your/path/to/plant-phenotypes-nlp/names.tsv"
 
 
 width = 24
