@@ -7,9 +7,9 @@ library(hash)
 library(stringr)
 
 
-input_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_f1_max.csv"
-output_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/figs/bargraph_with_points.pdf"
-names_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/names.tsv"
+input_path <- "/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_f1_max.csv"
+output_path <- "/your/path/to/plant-phenotypes-nlp/figs/bargraph_with_points.pdf"
+names_path <- "/your/path/to/plant-phenotypes-nlp/names.tsv"
 
 
 # The input and output files that this script uses and creates.
