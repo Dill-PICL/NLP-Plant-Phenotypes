@@ -8,7 +8,7 @@
 #SBATCH --ntasks-per-node=36   # 36 processor core(s) per node 
 #SBATCH --mem=100G   # maximum memory per node
 #SBATCH --job-name="bert"
-#SBATCH --mail-user=jyothi@iastate.edu   # email address
+#SBATCH --mail-user=youremail@gmail.com   # email address
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
 #SBATCH --mail-type=FAIL
