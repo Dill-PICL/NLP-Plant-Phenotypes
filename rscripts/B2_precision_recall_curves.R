@@ -6,9 +6,9 @@ library(operators)
 library(stringr)
 
 
-input_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_precision_recall_curves.csv"
-output_dir <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/figs/precision_recall_curves/"
-names_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/names.tsv"
+input_path <- "/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_precision_recall_curves.csv"
+output_dir <- "/your/path/to/plant-phenotypes-nlp/figs/precision_recall_curves/"
+names_path <- "/your/path/to/reorganizing-irb-scripts/plant-phenotypes-nlp/names.tsv"
 
 # setwd("..")
 # parent_directory <- getwd()
