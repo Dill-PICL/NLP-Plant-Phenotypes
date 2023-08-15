@@ -29,24 +29,16 @@ name_to_class = dict(zip(name_df["name_in_notebook"].values, name_df["class"]))
 
 
 
-# Input paths from a specific output directory from running the analysis pipeline.
-# input_paths = [
-# 	"/Users/irbraun/phenologs-with-oats/outputs/stacked_01_19_2021_h13m44s23_5388_plants/stacked_all_pmn_only_within_distances_melted.csv",
-# 	"/Users/irbraun/phenologs-with-oats/outputs/stacked_01_19_2021_h13m44s23_5388_plants/stacked_all_kegg_only_within_distances_melted.csv",
-# 	"/Users/irbraun/phenologs-with-oats/outputs/stacked_01_19_2021_h13m44s23_5388_plants/stacked_all_subsets_within_distances_melted.csv",
-# 	"/Users/irbraun/phenologs-with-oats/outputs/stacked_01_19_2021_h13m44s23_5388_plants/stacked_curated_pmn_only_within_distances_melted.csv",
-# 	"/Users/irbraun/phenologs-with-oats/outputs/stacked_01_19_2021_h13m44s23_5388_plants/stacked_curated_kegg_only_within_distances_melted.csv",
-# 	"/Users/irbraun/phenologs-with-oats/outputs/stacked_01_19_2021_h13m44s23_5388_plants/stacked_curated_subsets_within_distances_melted.csv",
-# ] 
+
 
 
 input_paths = [
-	"/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_all_pmn_only_within_distances_melted.csv",
-	"/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_all_kegg_only_within_distances_melted.csv",
-	"/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_all_subsets_within_distances_melted.csv",
-	"/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_curated_pmn_only_within_distances_melted.csv",
-	"/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_curated_kegg_only_within_distances_melted.csv",
-	"/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_curated_subsets_within_distances_melted.csv",
+	"/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_all_pmn_only_within_distances_melted.csv",
+	"/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_all_kegg_only_within_distances_melted.csv",
+	"/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_all_subsets_within_distances_melted.csv",
+	"/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_curated_pmn_only_within_distances_melted.csv",
+	"/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_curated_kegg_only_within_distances_melted.csv",
+	"/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_curated_subsets_within_distances_melted.csv",
 ]
 
 
@@ -60,13 +52,13 @@ input_paths = [
 
 
 # Input paths from a specific output directory from running the analysis pipeline.
-#plantcyc_pathways_cohesion_path = "/Users/irbraun/phenologs-with-oats/outputs/stacked_10_31_2020_h23m05s45_6169_plants/stacked_pmn_only_within_distances_melted.csv"
-#phenotype_subsets_cohesion_path = "/Users/irbraun/phenologs-with-oats/outputs/stacked_10_31_2020_h23m05s45_6169_plants/stacked_subsets_within_distances_melted.csv"
+#plantcyc_pathways_cohesion_path = "/your/path/to/outputs/stacked_10_31_2020_h23m05s45_6169_plants/stacked_pmn_only_within_distances_melted.csv"
+#phenotype_subsets_cohesion_path = "/your/path/to/outputs/stacked_10_31_2020_h23m05s45_6169_plants/stacked_subsets_within_distances_melted.csv"
 
 
 # Output paths, figure out where to put these.
-#output_path_plantcyc_pathways = "/Users/irbraun/phenologs-with-oats/outputs/plantcyc_pathways_cohesion_info.csv"
-#output_path_phenotype_subsets = "/Users/irbraun/phenologs-with-oats/outputs/phenotype_subsets_cohesion_info.csv"
+#output_path_plantcyc_pathways = "/your/path/to/outputs/plantcyc_pathways_cohesion_info.csv"
+#output_path_phenotype_subsets = "/your/path/to/outputs/phenotype_subsets_cohesion_info.csv"
 
 
 # Create and name an output directory according to when the notebooks was run and then create the paths for output files to put there.
