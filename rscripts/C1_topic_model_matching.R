@@ -91,7 +91,7 @@ ggplot(df, aes(x=x, y=y, group=line_number, alpha=alpha, size=size)) + geom_line
 
 
 # Saving the plot to a file.
-path <- "/Users/irbraun/Desktop/matching.png"
+path <- "/your/path/to/matching.png"
 ggsave(path, plot=last_plot(), device="png", path=NULL, scale=1, width=30, height=20, units=c("cm"), dpi=300, limitsize=FALSE)
 
 
