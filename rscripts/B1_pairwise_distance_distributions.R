@@ -26,8 +26,8 @@ library(hash)
 
 
 # The input and output files that this script uses and creates.
-input_path <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_histograms.csv"
-output_dir <- "/work/triffid/prasanth/reorganizing-irb-scripts/plant-phenotypes-nlp/figs/pairwise_distributions/"
+input_path <- "/your/path/to/plant-phenotypes-nlp/outputs/stacked_05_08_2023_h23m15s53_4794/stacked_histograms.csv"
+output_dir <- "/your/path/to/plant-phenotypes-nlp/figs/pairwise_distributions/"
 
 
 
